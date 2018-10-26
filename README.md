@@ -4,6 +4,9 @@ il progetto utilizza un Raspberry pi 3b e una scheda relè
 
 ![IMMAGINE](https://image.ibb.co/eoFCVq/openhab-screen.png)
 
+### Stato progetto
+Concluso, progetto di carattere didattico
+
 ## Software
 software basato su **Openhubian** e **MQTT**. 
 Le luci si attivano tramite Cloud su OpenHub.
@@ -16,8 +19,8 @@ Le luci si attivano tramite Cloud su OpenHub.
     sudo apt update  
     sudo apt upgrade  
     ```
-1. Nella cartella `/etc/openhab2/items` creare il file `[user].items` e definire i pin di collegamento con il relè
-1. Entrare nella cartella `/etc/openhab2/rules` e creare il `[user].rules` e definire le regole degli interruttori
+1. Nella cartella `/etc/openhab2/items` creare il file `[user].items` e definire i pin di collegamento con il relè seguendo il [DOCUMENTO UFFICIALE]()
+1. Entrare nella cartella `/etc/openhab2/rules` e creare il `[user].rules` e definire le regole degli interruttori seguendo il  [DOCUMENTO UFFICIALE]()
 
 ## Hardware
 BOM:
